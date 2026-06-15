@@ -192,6 +192,15 @@ const ENERGY_COMMODITIES_URANIUM_REACTOR_SUPPLY_BOTTLENECK_2035_IMAGE = {
   height: 640,
 };
 
+const ENERGY_COMMODITIES_UROY_URANIUM_ROYALTY_SWEETWATER_2026_IMAGE = {
+  src: "images/energy-commodities-uroy-uranium-royalty-sweetwater-2026-1280.webp",
+  externalSrc: "https://upload.wikimedia.org/wikipedia/commons/5/5b/Uranium_ore_and_%22yellowcake%22_uranium_concentrate_at_the_Greifswald_Nuclear_Power_Plant_information_center.jpg",
+  alt: "우라늄 광석과 옐로케이크 이미지로 우라늄 로열티의 실물 우라늄 보유와 로열티 자산을 설명하는 이미지",
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Uranium_ore_and_%22yellowcake%22_uranium_concentrate_at_the_Greifswald_Nuclear_Power_Plant_information_center.jpg",
+  width: 1280,
+  height: 640,
+};
+
 const ENERGY_COMMODITIES_ENCORE_ENERGY_ISR_URANIUM_COMPARISON_2026_IMAGE = {
   src: "images/energy-commodities-encore-energy-isr-uranium-comparison-2026-1280.webp",
   externalSrc: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/NRC_Uranium_In_Situ_Leach.png/1280px-NRC_Uranium_In_Situ_Leach.png",
@@ -2126,6 +2135,7 @@ const RELATED_STOCK_TICKERS_BY_DESK = {
 };
 
 const RELATED_STOCK_TICKERS_BY_SLUG = {
+  "energy-commodities-uroy-uranium-royalty-sweetwater-2026": ["UROY", "CCJ", "UEC", "NXE"],
   "semiconductor-intel-10-year-outlook-foundry-products-2036": ["INTC"],
   "traditional-energy-xenergy-xe100-triso-uranium-fuel-2026": ["XE", "LEU", "CCJ", "UUUU"],
   "energy-commodities-encore-energy-isr-uranium-comparison-2026": ["EU", "UEC", "UUUU", "CCJ"],
@@ -2214,6 +2224,16 @@ const RELATED_STOCK_TICKERS_BY_SLUG = {
 };
 
 const featuredPages = [
+  {
+    slug: "energy-commodities-uroy-uranium-royalty-sweetwater-2026",
+    title: "우라늄 로열티 UROY는 광산 없는 우라늄 베팅보다 Sweetwater 현금흐름 전환을 먼저 봐야 합니다",
+    desk: "에너지 원자재",
+    author: "Gareth",
+    publishedAt: "2026-06-15T11:56:00+09:00",
+    summary: "우라늄 로열티 UROY는 직접 광산을 운영하지 않지만 우라늄 실물, 로열티 권리, Sweetwater 결합을 통해 우라늄 사이클에 노출됩니다. 투자자는 우라늄 가격보다 거래 종결, 희석, 결합 후 현금흐름을 먼저 봐야 합니다.",
+    image: ENERGY_COMMODITIES_UROY_URANIUM_ROYALTY_SWEETWATER_2026_IMAGE,
+    video: { youtubeId: "qLC5ygBdR2k", title: "UROY 우라늄 로열티 투자 포인트를 설명하는 한국어 롱폼 영상", channel: "미국주식 멘탈이전부다", sourceUrl: "https://www.youtube.com/watch?v=qLC5ygBdR2k", thumbnailUrl: "https://i.ytimg.com/vi/qLC5ygBdR2k/hqdefault.jpg", width: 480, height: 360, description: "우라늄 로열티의 사업 모델과 투자 포인트를 UROY 관점에서 설명하는 한국어 롱폼 영상입니다." },
+  },
   {
     slug: "semiconductor-intel-10-year-outlook-foundry-products-2036",
     title: "인텔의 향후 10년 전망은 CPU 왕국 회복보다 파운드리 적자를 줄이는 속도에 달려 있습니다",
